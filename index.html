@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="assests/css/materialize.min.css">
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="assests/js/jquery.min.js"></script>
+<script src="assests/js/materialize.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">
+      <a href="#" class="brand-logo left">Leave Management System</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons"></i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<script type="assests/js/material-min.js"></script>
+<script>ss
+  $(document).ready(function(){
+    $('.button-collapse').sideNav({
+          menuWidth: 300, // Default is 240
+          closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        }
+      );
+      $('.collapsible').collapsible();
+});
+</script>
+</body>
+</html>
